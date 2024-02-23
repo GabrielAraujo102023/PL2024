@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+            <title>TPC1: Exames médicos desportivos</title> 
+            <date>9/2/2024</date>
+            <author>
+                <id>a102023</id>
+                <nome>Gabriel José Araújo</nome>
+            </author>
+            <uc>
+                <nome>Processamento de Linguagens</nome>
+                <sigla>PL2024</sigla>
+            </uc>
+    </meta>
+    <resumo>
+        <p>Ler o dataset, processá-lo e criar os seguintes resultados:
+
+    Lista ordenada alfabeticamente das modalidades desportivas;
+    Percentagens de atletas aptos e inaptos para a prática desportiva;
+    Distribuição de atletas por escalão etário (escalão = intervalo de 5 anos): ... [30-34], [35-39], ...
+</p>
+    </resumo>
+    <resultados>
+        <resultado>Na pasta resultados podemos encontrar: modalidades.txt (modalidades por ordem alfabética); percentagens.txt (percentagens de desportistas aptos e não aptos) e idades.txt (nomes dos desportistas organizada por escalão etário)</resultado>
+    </resultados>
+</doc>
