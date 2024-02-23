@@ -2,8 +2,8 @@
 
 <doc>
     <meta>
-            <title>TPC1: Exames médicos desportivos</title> 
-            <date>9/2/2024</date>
+            <title>TPC3: Somador on/off</title>
+            <date>23/2/2024</date>
             <author>
                 <id>a102023</id>
                 <nome>Gabriel José Araújo</nome>
@@ -14,14 +14,15 @@
             </uc>
     </meta>
     <resumo>
-        <p>Ler o dataset, processá-lo e criar os seguintes resultados:
-
-    Lista ordenada alfabeticamente das modalidades desportivas;
-    Percentagens de atletas aptos e inaptos para a prática desportiva;
-    Distribuição de atletas por escalão etário (escalão = intervalo de 5 anos): ... [30-34], [35-39], ...
+        <p>Calcula que funciona lendo caractéres de um texto:
+            - Se apanha 'on', liga
+            - Se apanha 'off', desliga
+            - Se apanha um digito, adiciona
+            - Se apanha um '=', apresenta a soma até agora
 </p>
     </resumo>
     <resultados>
-        <resultado>Na pasta resultados podemos encontrar: modalidades.txt (modalidades por ordem alfabética); percentagens.txt (percentagens de desportistas aptos e não aptos) e idades.txt (nomes dos desportistas organizada por escalão etário)</resultado>
+        <resultado>O programa, feito em python, funciona utilizando regex, e é capaz de entender números positivos e
+        negativos. A existência de whitespace no texto não empede o funcionamento.</resultado>
     </resultados>
 </doc>
