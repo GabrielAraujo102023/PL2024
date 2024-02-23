@@ -5,11 +5,8 @@ total = 0
 aptos = 0
 ranges = {(start, start + 4): [] for start in range(0, 100, 5)}
 first = True
-
+next(sys.stdin)
 for line in sys.stdin:
-    if first: # Passar primeira linha
-        first = False
-        continue
     total += 1
     data = line.strip().split(',')
     modalidades.add(data[8])
