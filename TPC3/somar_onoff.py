@@ -6,21 +6,21 @@ def update_text(t, i):
     return t[i:]
 
 # Regex que apanham tudo até ao desejado
-on = r'.*?\s*?.*?(on)'
-off = r'.*?\s*?.*?(off)'
-equals = r'\s*?.*?.*?(=)'
-digit = r'.*?\s*?.*?(-|\+)?(\d+)' #Apanha vários digitos que podem ter um sinal atrás
+on = r'(on)'
+off = r'(off)'
+equals = r'(=)'
+digit = r'(-|\+)?(\d+)' #Apanha vários digitos que podem ter um sinal atrás
 
 #Apanha texto do stdin
 text = sys.stdin.read()
 
 n = 0
-matched = re.match(on, text)
+matched = re.search(on, text)
 text = update_text(text, matched.end())
 while matched:
-    digit_matched = re.match(digit, text)
-    equals_matched = re.match(equals, text)
-    off_matched = re.match(off, text)
+    digit_matched = re.search(digit, text)
+    equals_matched = re.search(equals, text)
+    off_matched = re.search(off, text)
 
     # Vê quem tem o match.end mais pequeno, ou seja, qual é o comando mais próximo do inicio da frase
     ends = {'digit': digit_matched.end() if digit_matched else sys.maxsize,
@@ -39,7 +39,7 @@ while matched:
         text = update_text(text, ends[closest_character])
     elif closest_character == 'off':
         text = update_text(text, off_matched.end())
-        matched = re.match(on, text)
+        matched = re.search(on, text)
         continue
     else:
         break
