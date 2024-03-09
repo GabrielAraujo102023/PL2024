@@ -1,0 +1,6 @@
+0;Água;1e
+1;Croissant com Chocolate;80c
+2;Waffle;1e10c
+3;Lanche Misto;1e
+4;Mars;80c
+5;Chiclas;30c
