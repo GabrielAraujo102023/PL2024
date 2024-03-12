@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+            <title>TPC2: Conversor MD/HTML</title> 
+            <date>13/2/2024</date>
+            <author>
+                <id>a102023</id>
+                <nome>Gabriel José Araújo</nome>
+            </author>
+            <uc>
+                <nome>Processamento de Linguagens</nome>
+                <sigla>PL2024</sigla>
+            </uc>
+    </meta>
+    <resumo>
+        <p> Programa capaz de converter texto formatado em MD para uma página HTML.
+</p>
+    </resumo>
+    <resultados>
+        <resultado>O programa main.py gera, com o uso de regex, o ficheiro resultante HTML com o mesmo nome que o ficheiro MD, e é capaz de traduzir texto em negrito e itálico, listas ordenadas e títulos</resultado>
+    </resultados>
+</doc>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+            <title>TPC4: Analisador Léxico</title> 
+            <date>27/2/2024</date>
+            <author>
+                <id>a102023</id>
+                <nome>Gabriel José Araújo</nome>
+            </author>
+            <uc>
+                <nome>Processamento de Linguagens</nome>
+                <sigla>PL2024</sigla>
+            </uc>
+    </meta>
+    <resumo>
+        <p> Pequeno analisador léxico.
+</p>
+    </resumo>
+    <resultados>
+        <resultado>Um analisador léxico feito em python, capaz de entender os símbolos nno seguinte: 	
+SELECT id, nome, salario
+FROM empregados WHERE
+    salario >= 820
+consegue detetar as palavras restritas (SELECT, FROM WHERE), números, vírgulas, newlines, espaços (skips), >=, identificadores e símbolos desconhecidos</resultado>
+    </resultados>
+</doc>

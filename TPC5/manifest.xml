@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+            <title>TPC5: Máquina de Venda com Lexer</title> 
+            <date>5/3/2024</date>
+            <author>
+                <id>a102023</id>
+                <nome>Gabriel José Araújo</nome>
+            </author>
+            <uc>
+                <nome>Processamento de Linguagens</nome>
+                <sigla>PL2024</sigla>
+            </uc>
+    </meta>
+    <resumo>
+        <p> Máquina de vendas com Lexer
+</p>
+    </resumo>
+    <resultados>
+        <resultado>Uma máquina de vendas que utiliza o módulo ply.lex e é capaz de ler um ficheiro a identificar os seus produtos (id;nome;preço), selecionar um produto, introduzir moedas (2e, 1e, 50c, 20c e 10c) e verificar o saldo</resultado>
+    </resultados>
+</doc>
